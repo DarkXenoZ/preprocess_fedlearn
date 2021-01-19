@@ -1,0 +1,8 @@
+pydicom
+sklearn
+imageio
+numpy
+scipy
+pillow
+pandas
+matplotlib
