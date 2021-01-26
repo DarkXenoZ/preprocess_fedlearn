@@ -139,7 +139,7 @@ def main():
     if not os.path.exists(png_dir):
         os.makedirs(png_dir)
 
-    filepath_list = glob.glob(input_dir+'/*/*/*.dcm')
+    filepath_list = glob.glob(input_dir+'/*/*.dcm')
     folder_dct = dict()
     for filepath in filepath_list:
         pred_class = filepath.split('/')[-3]

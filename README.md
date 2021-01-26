@@ -32,20 +32,14 @@ Save dicom files of CXRs with the following structure:
 ```bash
 DICOM_ROOT
 ├── CLASS_NAME_1
-│   ├── ID_1
-│   │   └── ID_1.dcm
-│   └── ID_2
-│       └── ID_2.dcm
+│   ├── ID_1.dcm
+│   └── ID_2.dcm
 ├── CLASS_NAME_2
-│   ├── ID_3
-│   │   └── ID_3.dcm
-│   └── ID_4
-│       └── ID_4.dcm
+│   ├── ID_3.dcm
+│   └── ID_4.dcm
 └── CLASS_NAME_3
-    ├── ID_5
-    │   └── ID_5.dcm
-    └── ID_6
-        └── ID_6.dcm
+    ├── ID_5.dcm
+    └── ID_6.dcm
 ```
 
 Convert dicom files to png image files:
